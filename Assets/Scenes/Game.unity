@@ -1743,6 +1743,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1583622443}
   - component: {fileID: 1583622444}
+  - component: {fileID: 1583622445}
   m_Layer: 5
   m_Name: ButtonsContainer
   m_TagString: Untagged
@@ -1795,6 +1796,27 @@ MonoBehaviour:
   m_Spacing: {x: 20, y: 0}
   m_Constraint: 0
   m_ConstraintCount: 2
+--- !u!114 &1583622445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1583622442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28efd11c04548485286c782c920b2a86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startScale: {x: 0, y: 0, z: 0}
+  endScale: {x: 1, y: 1, z: 1}
+  duration: 0.5
+  easeType: 27
+  canOut: 0
+  outDelay: 0
+  outterEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1813441357
 GameObject:
   m_ObjectHideFlags: 0
@@ -1987,6 +2009,7 @@ GameObject:
   - component: {fileID: 1958578510}
   - component: {fileID: 1958578509}
   - component: {fileID: 1958578508}
+  - component: {fileID: 1958578511}
   m_Layer: 5
   m_Name: Press F (TMP)
   m_TagString: Untagged
@@ -2110,6 +2133,27 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 75}
   m_SizeDelta: {x: 265.3389, y: 90.5551}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1958578511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958578507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28efd11c04548485286c782c920b2a86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startScale: {x: 0, y: 0, z: 0}
+  endScale: {x: 1, y: 1, z: 1}
+  duration: 0.5
+  easeType: 27
+  canOut: 0
+  outDelay: 0
+  outterEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1962728334
 GameObject:
   m_ObjectHideFlags: 0
