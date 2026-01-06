@@ -29,7 +29,6 @@ public class SceneLoader : MonoBehaviour
         {
             timer += Time.deltaTime;
 
-            // Плавное заполнение слайдера (от 0 до 1)
             float progress = Mathf.Clamp01(timer / _minLoadTime);
             _loadingSlider.value = progress;
 
